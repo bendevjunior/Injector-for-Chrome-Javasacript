@@ -1,0 +1,20 @@
+{
+   "author": "Bendev Junior",
+   "background": {
+      "service_worker": "background.js"
+   },
+   "action": {
+      "default_icon": {
+         "128": "images/icon128.png"
+      },
+      "default_popup": "popup.html",
+      "default_title": "Injector for Chrome Javasacript"
+   },
+   "description": "Injector for Chrome Javasacript",
+   "manifest_version": 3,
+   "name": "Injector for Chrome Javasacript",
+   "permissions": [ "activeTab", "storage", "tabs", "activeTab", "http://*/", "https://*/" ],
+   "short_name": "JS injector",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0"
+}
